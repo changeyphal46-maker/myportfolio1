@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="...">
+  <title>...</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: #efefef;
+      color: #333;
+      line-height: 1.5;
+    }
+
+    nav {
+      background-color: #fff;
+      border: 1px solid #cccccc;
+      padding: 12px 18px;
+      margin-bottom: 15px;
+    }
+
+    nav a {
+      display: inline-block;
+      margin-right: 18px;
+      color: #0b57d0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      background-color: #fff;
+      border: 1px solid #cccccc;
+      padding: 18px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 26px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+    }
+
+    .profile {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .profile img {
+      width: 170px;
+      height: 170px;
+      border: 1px solid #bbb;
+      object-fit: cover;
+      background-color: #ddd;
+    }
+
+    .details {
+      margin: 0;
+    }
+
+    .details div {
+      margin-bottom: 8px;
+    }
+
+    .details dt {
+      font-weight: bold;
+    }
+
+    .details dd {
+      margin: 0;
+    }
+
+    .school {
+      margin-bottom: 18px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .school:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .school h3 {
+      margin: 0 0 4px;
+      font-size: 18px;
+    }
+
+    .school a {
+      color: #222;
+    }
+
+    .meta {
+      margin: 4px 0;
+      color: #555;
+    }
+
+    .school p {
+      margin: 6px 0;
+    }
+
+    .interests {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .interests li {
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 650px) {
+      .profile {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav aria-label="Page sections">
+      <a href="#personal-information">Personal Information</a>
+      <a href="#education">Education</a>
+      <a href="#interest">Interest</a>
+    </nav>
+
+    <section id="personal-information">
+      <h2>Personal Information</h2>
+      <div class="profile">
+        <img src="image/6336836500355485686_121.jpg">
+        <dl class="details">
+          <div>
+            <dt>name</dt>
+            <dd>ផល​ ឆេងអ៊ី</dd>
+          </div>
+          <div>
+            <dt>Date of brith</dt>
+            <dd>20/08/2008</dd>
+          </div>
+          <div>
+            <dt>AGE</dt>
+            <dd>18</dd>
+          </div>
+          <div>
+            <dt>EMAIL</dt>
+            <dd>changeyphal@gamil.com</dd>
+          </div>
+          <div>
+            <dt>TEL</dt>
+            <dd>097303350</dd>
+          </div>
+          <div>
+            <dt>GOAL</dt>
+            <dd>Become a software developer</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <article class="school">
+        <h3><a href="https://www.facebook.com/share/1F55REpWHo/?mibextid=wwXIfr">សាលាបឋមសិក្សាហ៊ុនសែនយាយសល់</a></h3>
+        <p class="meta">2014</strong> 2020</p>
+        <p></p>I began my primary education at this school in 2014 and completed it in 2020.
+         This experience provided an important foundation for my continued learning and future academic goals.
+        <img 
+        class="school-photo"
+        src="image/6336836500355485687_120.jpg"
+        alt="សាលាបឋមសិក្សាហ៊ុនសែនយាយសល់"
+        loading="lazy">
+      </article> 
+      
+
+      <article class="school">
+        <h3><a href="https://www.facebook.com/HunSenPoriengHighSchool/about">វិទ្យាល័យហ៊ុនសែនពោធិ៍រៀង</a></h3>
+        <p class="meta"><strong>2021</strong>-2023</p>
+        <p>I attended this secondary school from 2021 to 2023, continuing my education and building a strong 
+          foundation for my future studies and career goals.</p>
+        <p></p>
+        <img
+        calss="school-photo"
+        src="image/វី​ ហ ស.jpg"
+        alt="វិទ្យាល័យហ៊ុនសែនពោធិ៍រៀង"
+        loading="lazy"
+        width="100%"
+        height="110%">
+      </article>
+
+
+      <article class="school">
+        <h3><a href="https://www.bing.com/images/search?q=ntti+logo&qpvt=ntti+logo&form=IQFRML&first=1">វិទ្យាស្ថានបណ្ដុះបណ្ដាមបច្ចេកទេសៃlink</a></h3>
+        <p class="meta"><strong>2026</strong> ...</p>
+        <p>I recently began studying coding at the National Technical Training Institute, 
+          where I am developing the skills I need to pursue a career as a software developer.</p>
+        <img
+        calss="school-photo"
+        src="image/6339134969283810576_120.jpg"
+      </article>
+    </section>
+
+    <section id="interest">
+      <h2>Interest</h2>
+      <ul class="interests">
+        <li><strong>Read a booK</strong>...</li>
+        <li><strong>Porgramming</strong> ...</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
